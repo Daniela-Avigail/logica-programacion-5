@@ -29,5 +29,18 @@ public class DiccionarioEspanolingles {
         diccionario.put("tiempo", "time");
         diccionario.put("computadora", "computer");
         diccionario.put("sol", "sun");
-    }
-}
+
+     //Se incorporan las palabras en español a una lista para elegir al azar
+       ArrayList<String> listaPalabras = new ArrayList<>(diccionario.keySet());
+       Scanner lector = new Scanner(System.in);
+       Random aleatorio = new Random();
+
+       int correctas = 0;
+       int incorretas = 0;
+       System.out.println("Traduce al ingles las siguientes palabras");
+       System.out.println();
+
+         }
+
+
+         }
