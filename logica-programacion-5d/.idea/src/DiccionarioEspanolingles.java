@@ -61,7 +61,14 @@ public class DiccionarioEspanolingles {
             }
             System.out.println();
 
-        }
+
+        // Resultado final
+        System.out.println("Resultado");
+        System.out.println("Respuestas correctas: " + correctas);
+        System.out.println("Respuestas incorrectas: " + incorrectas);
+
+        lector.close();
+    }
 
     }
 
